@@ -14,3 +14,8 @@
 ## git reset --hard HEAD^ 退回到上一个commit节点  一个^表示退回一个版本，以此类推
 ## git reset --hard [commit_id] 退回到指定的commit_id节点
 ## git reflog 查看所有操作记录，最上面的为最新记录，可以利用commit_id去往任何操作位置
+## git tag [tag_name] [commit_id] -m [message] 创建标签，commit_id不写默认标签表示最新的commit_id位置，message也可以不写
+## git tag 查看标签列表 
+## git show [tag_name] 查看标签详细信息
+## git reset --hard [tag] 去往某个标签节点
+## git tag -d [tag]  删除标签
