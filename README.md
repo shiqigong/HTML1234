@@ -10,3 +10,4 @@
 ## git log --pretty=oneline  查看日志记录第一行
 ## git diff [file] 比较工作区文件和仓库文件差异
 ## git checkout [commit] -- [file] 将暂存区或者某个commit点文件恢复到工作区
+## git mv [file] [path]    git rm [files]  移动或者删除文件  注意：这两个操作会修改工作区内容，同时将操作记录提交到暂存
