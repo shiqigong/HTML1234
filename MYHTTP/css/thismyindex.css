@@ -1,0 +1,179 @@
+body {
+    font-size: 0%;
+}
+
+.big_div {
+    margin: 0 auto;
+    width: 80%;
+    height: 536px;
+    background-color: rgb(232, 232, 232);
+    font-size: 0%;
+}
+
+.left_content {
+    display: inline-block;
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    vertical-align: top;
+}
+
+.right_content {
+    display: inline-block;
+    width: 70%;
+    height: 100%;
+    background-color: rgb(214, 214, 214);
+}
+
+.image_ {
+    width: 100%;
+    height: 250px;
+}
+
+.special {
+    margin: 10px 0 0;
+    width: 100%;
+    height: 273px;
+    background-color: rgb(208, 208, 208);
+}
+
+.special_text {
+    height: 38px;
+    padding: 2px 0;
+    border-bottom: 1px rgb(255, 255, 255) solid;
+}
+
+.special_content {
+    height: 78px;
+    padding: 6px;
+    background-color: rgb(210, 208, 208);
+    /* border:1px black solid; */
+}
+
+.imageSize {
+    height: 100%;
+    width: 90px;
+    margin-right: 5px;
+}
+
+.tit {
+    display: inline-block;
+    width: 60%;
+    height: 100%;
+    padding-top: 5px;
+    vertical-align: top;
+}
+
+.next_text {
+    font-size: 14px;
+}
+
+.next_text:hover {
+    color: blue;
+}
+
+.usty {
+    color: rgb(255, 255, 255);
+}
+
+.right_top {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(240, 238, 238);
+    padding: 0 20px;
+}
+
+.right_tlt {
+    display: block;
+    height: 60px;
+    padding: 22px 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.right_tlt:hover {
+    color: blue;
+}
+
+.right_tlt_concent {
+    text-indent: 2em;
+}
+
+.right_bottom {
+    margin: 0 22px;
+    height: 436px;
+    padding: 0 22px;
+    /* background-color: rgb(134, 65, 65); */
+}
+
+.new_course {
+    font-size: 26px;
+}
+
+.new_course:after {
+    content: '';
+    position: absolute;
+    /*定位背景横线的位置*/
+    top: 25%;
+    /*背景横线颜色*/
+    background: #8c8c8c;       
+    width: 40%;
+    height: 2px;
+}
+.listyl{
+    list-style-type: disc;
+    /* background-color: #fff; */
+    border-bottom: 1px rgb(148, 146, 146) dotted;
+    height: 25.5px;
+    margin: 10px 0;
+}
+.listyl_asz{
+    font-size: 18px;
+}
+.listyl_asz:hover{
+    color: blue;
+}
+.div_bottom{
+    margin: 10px auto 0;
+    width: 80%;
+    height: 300px;
+    background-color: rgb(148, 146, 146);
+    
+}
+.hot_course{
+    display: block;
+    height: 60px;
+    padding: 16px 0;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+.divsty{
+    display: inline-block;
+    width: 17%;
+    height: 64%;
+    margin: 1%;
+    background-color: #fff;
+    vertical-align: top;
+}
+.divsty:hover{
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}
+.rightdiv{
+    margin-left: 3%;
+}
+.jpgmy{
+    width: 100%;
+    height: 70%;
+}
+.bigp{
+    font-size: 13px;
+}
+.spsty{
+    display: inline-block;
+    margin: 3px;
+    margin-top: 5px;
+    background-color: rgb(208, 205, 205);
+    color: #8c8c8c;
+}

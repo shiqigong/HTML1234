@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type=" text/css" href="../css/p.css"/>
+		<script type="text/javascript">
+			function $(id) { return document.getElementById(id); }
+			function setFont(size) {
+				$("content").style.fontSize = size;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>路径选择工具</h1>
+		<div>选择字号【<a href="javascript:setFont('15px')">小</a>
+			<a href="#" onclick="javascript:setFont('20px')">中</a>
+			<a href="#" onclick="javascript:setFont('25px')">大</a>】
+		</div>
+		<hr>
+		<div id="content">	
+				<p>路径选择工具可以用来选中整条或多条路径进行变换。指以下两种工具：黑箭头和白箭头。</p>
+				<h2>简介</h2>
+				<hr>
+				<p>路径选择工具：可以用来选中整条或多条路径进行变换。指以下两种工具：</p>
+                <ul>
+					<li>黑箭头（路径选择工具）：选择一个闭合的路径或是一个独立存在的路径。</li>
+					<li>白箭头（直接选择工具）：可以选择任何路径上的节点.点选其中一个或是按Shift连续点选可选多个。</li>
+				</ul>
+				<h2>路径选择工具</h2>
+				<hr>
+				<p>可以整体移动和改变路径的形状，还可以调整两个路径的相对位置。其使用方法类似于“移动工具”，只不过“移动工具”是对选取区域进行操作，而“路径选择工具”是对路径进行操作。</p>
+			    <p>其属性栏各参数含义如下：</p>
+				<ul>
+					<li>组合按钮：可以合并多个被选择的路径。</li>
+					<li>显示定界框选项：选择它会出现一个矩形区域。可以通过这个矩形定界框上的调整手柄来调节路径的大小和旋转角度。</li>
+				</ul>
+			    <h2>直接选择工具</h2>
+				<hr>
+				<p>可以改变路径的位置。它可以方便地对锚点、控制手柄、一段路径甚至全部路径进行移动、改变方向和形状操作。其属性栏没有任何参数。</p>
+			    <p>在路径外任意处单击，可以取消对路径的选取。将路径框架包围在该工具的拖曳范围之中，可以选中所有的锚点，这时锚点全部变为实心状，移动任何锚点或曲线都可以使全部路径移动。</p>             
+		        <p>提示：如果移动的时候按住Alt键，可以将路径复制到新的位置。</p>
+		</div>
+				
+	</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type=" text/css" href="../css/p.css"/>
+		<script type="text/javascript">
+			function $(id) { return document.getElementById(id); }
+			function setFont(size) {
+				$("content").style.fontSize = size;
+			}
+		</script>
+		
+	</head>
+	<body>
+		<h1>魔棒工具</h1>
+		<div>选择字号【<a href="javascript:setFont('15px')">小</a>
+			<a href="#" onclick="javascript:setFont('20px')">中</a>
+			<a href="#" onclick="javascript:setFont('25px')">大</a>】
+		</div>
+		<hr>	
+		<div id="content">		
+				<p>魔棒工具是photoshop中提供的一种比较快捷的抠图工具，对于一些分界线比较明显的图像，通过魔棒工具可以很快速的将图像抠出，魔棒的作用是可以知道你点击的那个地方的颜色，并自动获取附近区域相同的颜色，使它们处于选择状态。</p>
+				<h2>属性栏</h2>
+				<hr>
+				<p>容差：指你所选取图像的颜色接近度，也就是说容差越大，图像颜色的接近度也就越小，选择的区域也就相对变大了；</p>
+		        <p>连续：指你选择图像颜色的时候只能选择一个区域当中的颜色，不能跨区域选择，比如如果一个图像中有几个相同颜色的圆，当然它们都不相交，当我选择了连续，在一个圆中选择，这样只能选择到一个圆，如果没点连续，那么整张图片中的相同颜色的圆都能被选中；</p>
+		        <p>用于所有图层：选中了这个选项，整个图层当中相同颜色的区域都会被选中，没点的话就只会选中单个图层的颜色</p>
+			    <h2>使用技巧</h2>
+				<hr>
+				<ul>
+					<li>在勾选选区的时候注意图像的放大放小操作，这对于细致位置的勾选大有益处</li>
+					<li>放大图像快捷键“alt+滚动轮往上”，放小图像快捷键：“alt+滚动轮往下”</li>
+					<li>使用快速选择工具时，缩小画笔的快捷键“[”（字母p右边的那个键），放大画笔的快捷键“]”。英文输入法的状态下才可以操作！</li>
+				</ul>
+		</div>
+		
+	</body>
+</html>

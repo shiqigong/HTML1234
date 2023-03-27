@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>精彩教程</title>
+    <link rel="stylesheet" type=" text/css" href="../css/first.css" />
+    <link rel="stylesheet" href="../css/article.css" type="text/css">
+</head>
+
+<body>
+    <div class="ue-bar">
+        <div class="ue-bar-warp">
+            <div class="logo">
+                <a href="#">
+                    <img src="../jpg/PS.png" width="60" alt="ps教程网站" title="ps教程网站">
+                </a>
+            </div>
+            <div class="ue-bar-nav">
+                <ul>
+                    <li class="active"><a href="../html/index.html">
+                            <em>首页</em>
+                        </a></li>
+                    <li><a href="../html/psjiaochen.html">
+                            <em>PS教程</em>
+                        </a></li>
+                    <li><a href="../html/login.html">
+                            <em>登录</em>
+                        </a></li>
+                    <li><a href="../html/register.html">
+                            <em>注册</em>
+                        </a></li>
+                    <li><a href="../html/about.html">
+                            <em>关于我们</em>
+                        </a></li>
+                    <li><a href="../html/feedback.html">
+                            <em>反馈</em>
+                        </a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br />
+    <div class="tymb">
+        <p class="tilll">使用Photoshop通道混合器抠图抠出茂密的树木图片教程</p>
+        <p class="tlll">出处;作者：佚名</p>
+        <hr>
+        <p class="topmm">今天带来新的知识点——通道混合器。 "通道混合器"可使用图像中现有颜色通道的混合来修改目标颜色通道。使用"通道混合器"可以创建高品质的灰度图像、棕褐色调或其他彩色图像。</p>
+        <p class="ddcl">最终效果</p>
+        <div class="mymimg"><img src="../jpg/img0701.jpg" class="overtheimg"></div>
+        <p class="ddcl">原图</P>
+        <div class="mymimg"><img src="../jpg/img0702.jpg" class="overtheimg"></div>
+        <p class="ddcl">一、通道混合器</p> 
+        <p class="ddcl">A、创建通道混合器</p>
+        <p class="ddcl">创建"通道混合器"有两种方式：</p>
+        <p class="ddcl">1、【图像】-【调整】-【通道混合器】，【注意】：这种方式会修改图像数据。</P>
+        <div class="mymimg"><img src="../jpg/img0703.jpg" class="overtheimg"></div>
+        <p class="ddcl">2、通过调整图层的方式创建。单击"图层"面板中的创建新的调整图层按钮，在打开的下拉列表中选择"通道混合器"，可以创建一个调整图层，并打开"通道混合器"对话框。</P>
+        <div class="mymimg"><img src="../jpg/img0704.jpg" class="overtheimg"></div>
+        <p class="ddcl">B、参数解读</p>
+        <p class="ddcl">通道混合器的对话框如下图所示：</p>
+        <p class="ddcl">1、在对话框中有一个"输出通道"选项，它指的是我们要调整的通道。对于RGB模式的图像来说，可选择：红、绿、蓝三个通道;</p>
+        <p class="ddcl">2、选择一个输出通道后，会自动将该通道的滑块设置为100%，其他通道则设置为0%;</p>
+        <p class="ddcl">3、将通道的滑块向右移动，可以增加该通道在输出通道中所占的百分比，向左拖动则可减小百分比。</p>
+        <div class="mymimg"><img src="../jpg/img0705.jpg" class="overtheimg"></div>
+        <p class="ddcl">下图是红通道为默认的100%时的图像效果。</P>
+        <div class="mymimg"><img src="../jpg/img0706.jpg" class="overtheimg"></div>
+        <p class="ddcl">将红通道的数值修改为200%，增加该通道在输出通道中的百分比，红色通道变亮以后，图像中红色得到增强，范围也得到了扩展。</p>
+        <p class="ddcl">4、勾选"单色"选项后，图像会变成黑白效果，这在抠图中经常使用;</p>
+        <p class="ddcl">5、"常数"选项用来调整输出通道的灰度值。</p>
+        <p class="ddcl">a)对于RGB模式的图像来说，该值为正值时可增加更多的白色，为负值时，则增加更多的黑色;</p>
+        <p class="ddcl">b)该值为+200%时，输出通道为全白;</p>
+        <p class="ddcl">c)该值为-200%时，输出通道为全黑</P>
+        <div class="mymimg"><img src="../jpg/img0707.jpg" class="overtheimg"></div>
+        <p class="ddcl">二、抠图实战——松林</p>
+        <p class="ddcl">3.1、图像分析先看原图。</p>
+        <p class="ddcl">(1)树木的枝干非常复杂，的颜色并没有太大的变化;</p>        
+        <p class="ddcl">(2)这种图很难用"色彩范围"、"魔棒工具"将其选取;</p>       
+        <p class="ddcl">(3)可考虑使用"通道混合器"、"色阶"等命令来增强图像对比度，借助蒙版抠图</P>
+        <div class="mymimg"><img src="../jpg/img0708.jpg" class="overtheimg"></div>
+        <p class="ddcl">3.2、抠图过程</p>       
+        <p class="ddcl">(1)反相</p>       
+        <p class="ddcl">a)Ctrl+I将图像反相</p>       
+        <p class="ddcl">b)"反相"可将图像通道中每个像素的亮度值都转换为256级颜色值上相反的值;</p>        
+        <p class="ddcl">c)从反相的效果中可以看到，天空和云彩显示出比较一致的色调，树木的枝干呈现为白色，树枝与背景的色调已经初步分离;</P>
+        <div class="mymimg"><img src="../jpg/img0709.jpg" class="overtheimg"></div>
+        <p class="ddcl">(2)通道混合器</p>       
+        <p class="ddcl">a)新建一个通道混合器调整图层，打开通道混合器对话框，勾选"单色"，得到黑白的图像效果;</p>       
+        <p class="ddcl">b)红、绿、蓝三个参数设置如下图所示;</P>
+        <div class="mymimg"><img src="../jpg/img0710.jpg" class="overtheimg"></div>
+        <p class="ddcl">c)经过通道混合器处理后，图像变成黑白效果，树木与天空对比度得到加强;</P>
+        <div class="mymimg"><img src="../jpg/img0711.jpg" class="overtheimg"></div>
+        <p class="ddcl"></P>
+        <div class="mymimg"><img src="../jpg/img0712.jpg" class="overtheimg"></div>
+        <p class="ddcl">(3)色阶</p>      
+        <p class="ddcl">a)添加一个色阶调整图层，打开色阶对话框，将阴影和高光滑块向中间移动，增强色调的差异，使图像中的深色变成黑色，浅色变成白色;</p>
+        <div class="mymimg"><img src="../jpg/img0713.jpg" class="overtheimg"></div>
+        <p class="ddcl">(4)创建图层蒙版</p>      
+        <p class="ddcl">a)Ctrl+Shift+Alt+E盖印可见图层，使得上面的黑白效果成为单独的一层;</p>      
+        <p class="ddcl">b)Ctrl+A全选图层，Ctrl+C复制;</p>     
+        <p class="ddcl">c)回到原来的彩色图层中，创建一个蒙版，按住Alt键单击蒙版，可进入蒙版内部编辑，此时Ctrl+V粘贴，黑白图像就作为蒙版了;</P>
+        <p class="ddcl">(5)替换背景，合成新图</p>       
+        <p class="ddcl">将另外的一张背景图添加进来，并且再微调一下细节，这样整个抠图+合成图像就完成了;</p>
+        <div class="mymimg"><img src="../jpg/img0714.jpg" class="overtheimg"></div>
+    </div>
+    <div class="topbox"><a href="#" class="topboxdd">返回顶部</a></div>
+</body>
+<footer>
+	<div class="fot">
+		<center> @东北石油大学</center>
+		<center> 图形图像处理小组</center>
+	</div>
+</footer>
+
+</html>

@@ -1,0 +1,57 @@
+.tymb{
+    box-sizing: border-box;
+    width: 60%;
+    height: auto;
+    background-color: rgb(235, 224, 224);
+    margin: 0 auto;
+    padding: 15px 30px;
+}
+.tilll{
+    box-sizing: border-box;
+    height: 80px;
+    /* margin-top: 30px; */
+    padding-top: 20px;
+    font-size: large;
+    font-weight: 800;
+    text-align: center;
+}
+.tlll{
+    height: 30px;
+    color: rgb(129, 130, 130);
+}
+.topmm{
+    font-size: 16px;
+    margin-top: 30px;
+    line-height: 1.5em;
+}
+.ddcl{
+    font-size: 16px;
+    line-height: 1.5em;
+    margin-bottom: 15px;
+}
+.mymimg{
+    text-align:center;
+    margin-bottom: 15px;
+}
+.overtheimg{
+    width: 100%;
+    height: auto;
+}
+.topbox{
+    position: fixed;
+    top: 85%;
+    left: 90%;
+    height: 30px;
+    width: 70px;
+    background-color: rgb(169, 141, 141);
+    border-radius: 20%;
+    text-align: center;
+}
+.topboxdd{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 30px;  
+}
+.topbox:hover{
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+}

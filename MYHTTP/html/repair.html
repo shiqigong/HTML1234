@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type=" text/css" href="../css/p.css"/>
+		<script type="text/javascript">
+			function $(id) { return document.getElementById(id); }
+			function setFont(size) {
+				$("content").style.fontSize = size;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>修补工具</h1>
+		<div id="div1">选择字号【<a href="javascript:setFont('15px')">小</a>
+			<a href="#" onclick="javascript:setFont('20px')">中</a>
+			<a href="#" onclick="javascript:setFont('25px')">大</a>】
+		</div>
+		<hr>
+		<div id="content">
+			<p>修补工具：修改有明显裂痕或污点等有缺陷或者需要更改的图像。选择需要修复的选区，拉取需要修复的选区拖动到附近完好的区域方可实现修补。一般用于修复照片的话可以用来修复一些大面积的皱纹之类的，细节处理则需要用仿制图章工具</p>
+			<h2>主要用途</h2>
+			<hr>
+			<p>修改有明显裂痕或污点等有缺陷或者需要更改的图像。选择需要修复的选区，拉取需要修复的选区拖动到附近完好的区域方可实现修补。一般用于修复照片的话可以用来修复一些大面积的皱纹之类的，细节处理则需要用仿制图章工具</p>
+			<h2>操作原理</h2>
+			<hr>
+			<p>选择状态为“源”的时候，拉取污点选区到完好区域实现修补。选择状态为“目标”的时候，选取足够盖住污点区域的选区拖动到污点区域，盖住污点实现修补。</p>
+		    <p>修补工具使您可以用其它区域或图案中的像素来修复选中的区域。像修复画笔工具一样，修补工具会将样本像素的纹理、光照和阴影与源像素进行匹配。</p>
+		    <p>修补工具快捷键为：J</p>
+		</div>    
+		
+	</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type=" text/css" href="../css/p.css"/>
+		<script type="text/javascript">
+			function $(id) { return document.getElementById(id); }
+			function setFont(size) {
+				$("content").style.fontSize = size;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>套索工具</h1>
+		<div id="div1">选择字号【<a href="javascript:setFont('15px')">小</a>
+			<a href="#" onclick="javascript:setFont('20px')">中</a>
+			<a href="#" onclick="javascript:setFont('25px')">大</a>】
+		</div>
+		<hr>
+		<div id="content">
+			<p>photoshop的套索工具内含三个工具，它们分别是套索工具、多边形套索工具、磁性套索工具，套索工具是最基本的选区工具，在处理图像中起着很重要的作用。</p>
+			<h2>不同用法</h2>
+			<hr>
+			<p>套索工具组里的第一个套索工具用于做任意不规则选区，套索工具组里的多边形套索工具用于做有一定规则的选区，而套索工具组里的磁性套索工具是制作边缘比较清晰，且与背景颜色相差比较大的图片的选区。而且在使用的时候注意其属性栏的设置</p>
+			<h2>属性栏</h2>
+			<hr>
+			 <ul>
+			 	<li>选区加减的设置：做选区的时候，使用 “新选区”命令较多</li>
+				<li>“羽化”选项：取值范围在0－250间，可羽化选区的边缘，数值越大，羽化的边缘越大。</li>
+				<li>“消除锯齿”的功能是让选区更平滑。</li>
+				<li>“宽度”的取值范围在1-256间，可设置一个像素宽度，一般使用的默认值10。</li>
+				<li>“边对比度”的取值范围在1-100间，它可以设置“磁性套索”工具检测边缘图像灵敏度。如果选取的图像与周围图像间的颜色对比度较强，那么就应设置一个较高的百分数值。反之，输入一个较低的百分数值。</li>
+				<li>“频率”的取值范围在0－100，它是用来设置在选取时关键点创建的速率的一个选项。数值越大，速率越快，关键点就越多。当图的边缘较复杂时，需要较多的关键点来确定边缘的准确性，可采用较大的频率值，一般使用默认的值57。</li>
+			 </ul>
+		</div>
+	</body>
+</html>

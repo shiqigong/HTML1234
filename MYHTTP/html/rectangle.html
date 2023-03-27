@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type=" text/css" href="../css/p.css"/>
+		<script type="text/javascript">
+			function $(id) { return document.getElementById(id); }
+			function setFont(size) {
+				$("content").style.fontSize = size;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>矩形工具</h1>
+		<div id="div1">选择字号【<a href="javascript:setFont('15px')">小</a>
+			<a href="#" onclick="javascript:setFont('20px')">中</a>
+			<a href="#" onclick="javascript:setFont('25px')">大</a>】
+		</div>
+		<hr>
+		<div id="content">
+			<p>矩形工具指可以拖动鼠标在绘图区内绘制出所需要矩形的软件工具</p>
+			<h2>类别</h2>
+			<hr>
+			<p>在PS矩形工具中，有正方形（可拉伸成为长方形）、圆角矩形、椭圆工具、多边形工具、直线工具、多边形工具等（其中多边形工具可在头部预设图形。）</p>
+		    <p>椭圆工具：可以手动鼠标在绘图区内绘制出所需要的椭圆矢量图形。</p>
+		    <p>多边形工具是指用来绘制多边形、星形形状的图形。</p>
+			<ul>
+				<li>选择多边形工具，然后在绘图页面中拖动鼠标，直至多边形达到所需大小。</li>
+                <li>按住“Ctrl”键可绘制出正多边形，按住“Shift"键可绘制出以单击点为中心的多边形，两键同时按下可绘制出不单击点为中心的正多边形。</li>
+				<li>选择星形工具，然后在绘图页面中拖动鼠标，直至星形达到所需大小。</li>
+				<li>可以在属性栏中进行相应设置以更改星形的边数。</li>
+			</ul>
+		</div>
+	</body>
+</html>

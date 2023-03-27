@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+
+    background-image:url(../jpg/img-login.jpeg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+ul {
+    width: 400px;
+    list-style: none;
+    margin: 50px auto;
+}
+
+li {
+    padding: 12px;
+    position: relative;
+}
+
+label {
+    width: 80px;
+    display: inline-block;
+    line-height: 30px;
+}
+
+input[type='text'],
+input[type='password'] {
+    height: 30px;
+}
+
+img {
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    margin-left: 80px;
+    padding: 5px 10px;
+}
+
+.form-item {
+    position: relative;
+    width: 360px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+
+.form-item input {
+    width: 288px;
+    height: 48px;
+    padding-left: 70px;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #000;
+    background-color: transparent;
+    outline: none;
+}
+
+.form-item button {
+    width: 360px;
+    height: 50px;
+    border: 0;
+    border-radius: 25px;
+    font-size: 18px;
+    color: #000;
+    outline: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.add{
+    color: rgb(255, 255, 255);
+}

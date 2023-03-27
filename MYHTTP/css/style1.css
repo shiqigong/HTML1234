@@ -1,0 +1,22 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family:Arial, Helvetica, sans-serif;
+	background-color: #69F;
+}
+.team-section{
+	height:100%;
+	/* 弹性布局 */
+	display:flex;
+}
+.person{
+	/* 使五个盒子在第一行均匀分布 */
+	flex:1;
+	/* 盒子太大了，溢出的部分进行隐藏，不加他，网页会被撑的很大*/
+	overflow:hidden;
+	/* 0.6s的时间进行样式过渡，当鼠标悬停时从flex:1到flex:3 */
+	transition:.6s;
+}
+.person:hover{
+	flex:3
+}

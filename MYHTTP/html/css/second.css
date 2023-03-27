@@ -1,0 +1,242 @@
+*{
+	margin: 0%;
+	padding: 0%;
+	font-size: 12px;
+	font-style: normal;
+}
+li,ul,img,a,div{
+	border: 0;
+	list-style: none;
+}
+div{
+	display: block;
+}
+a{
+	color: #333333;
+	text-decoration: none;
+}
+em{
+	font-weight: normal;
+}
+.ue-bar{
+	background-color: #222222;
+}
+.ue-bar-warp{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.logo{
+	width:134px;
+	height: 50px;
+	float: left;
+	padding-right: 10px;
+	padding-top: 8px;
+}
+.logo a{
+	display: inline-block;
+	width: 100%;
+	height: 100%;
+	margin-top: 0px;
+}
+.ue-bar-nav{
+	height: 70px;
+	float: left;
+}
+.ue-bar-nav li{
+	height: 70px;
+	float: left;
+	margin-right: 20px;
+}
+.ue-bar-nav li *{
+	color: #dadada;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 17px;
+	vertical-align: top;
+}
+.ue-bar-nav li a{
+	height: 22px;
+	line-height: 22px;
+	padding: 26px 17px;
+}
+.ue-bar-nav li a.active{
+	background: #333;
+}
+.ue-bar-nav li a:hover{
+	background: #333;
+}
+.conect{
+    width: 80%;
+    height: 850px;
+    background-color:white;
+    margin: 0 auto;
+    font-size: 0;
+	}
+.left{
+	    display:inline-block;
+	    height: 100%;
+	    width: 20%;
+	    background-color:#222222;
+	}
+.right{
+    display:inline-block;
+    height: 850px;
+    width: 80%;
+    background-color:white;
+    padding: 25px;
+    vertical-align: top;  
+	box-sizing: border-box;
+
+}
+.conect li *{
+	   color: #dadada;
+		font-size: 14px;
+		display: inline-block;
+		line-height: 17px;
+		vertical-align: top;
+}
+.conect li a{
+	height: 22px;
+	line-height: 22px;
+	padding: 26px 17px;
+}
+.header{
+	    height: 400px;
+		background-color: #333;
+	
+}
+.header li{
+	color: white;
+	font-size: 18px;
+	float: left;
+}
+
+main {
+    position: relative;
+    top:4;
+    height: 300px;
+    width: 100%;
+    overflow: hidden;
+}
+ main .bg {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background-image: url(img/images/1.jpg);
+    background-size: 100% 100%;
+    /* 高斯模糊30px */
+    filter: blur(30px);
+}
+
+main section {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    width: 100%;
+    max-width: 980px;
+}
+
+main section .tupian {
+    width: 100%;
+    height: 100%;
+}
+main section .tupian .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.yun {
+    animation: bian 5s linear infinite;
+}
+@keyframes bian {
+    0%,
+   100% {
+          opacity: 0.2;
+    backdrop-filter: blur(10px);
+}
+    30%,
+    80% {
+           opacity: 1;
+            backdrop-filter: blur(0px);
+}
+} 
+ main .select {
+     position: absolute;
+     bottom: 10px;
+     height: 30px;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+main .select .dian {
+    margin: 3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 254, 254);
+}
+main .select .dian:hover {
+    background-color: rgb(255, 254, 254);
+    cursor: pointer;
+}
+.check {
+    background-color: rgb(255, 254, 254);
+}
+main section .bt {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(82, 81, 81, 0.2);
+    border-radius: 20%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+main section .bt:hover {
+    box-shadow: inset 0 0 1px rgba(255, 255, 255, .8),
+    inset 0 0 5px rgba(255, 255, 255, .8),
+    inset 0 0 15px rgba(255, 255, 255, .8);
+}
+main section .left {
+    left: -60px;
+}
+main section .right {
+    right: -60px;
+}
+main section .anniu {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    user-select: none;
+    transition: all 0.3s;
+}
+.txt {
+    position: fixed;
+    bottom: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    height: 100px;
+    font-family: 'fangsong';
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, .9);
+    user-select: none;
+}
+.fot{
+    background-color: black;
+    color: #dadada;
+}

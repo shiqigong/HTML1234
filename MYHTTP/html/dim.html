@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" type=" text/css" href="../css/p.css"/>
+		<script type="text/javascript">
+			function $(id) { return document.getElementById(id); }
+			function setFont(size) {
+				$("content").style.fontSize = size;
+			}
+		</script>
+	</head>
+	<body>
+		<h1>模糊工具</h1>
+		<div id="div1">选择字号【<a href="javascript:setFont('15px')">小</a>
+			<a href="#" onclick="javascript:setFont('20px')">中</a>
+			<a href="#" onclick="javascript:setFont('25px')">大</a>】
+		</div>
+		<hr>
+		<div id="content">	
+				<p>Photoshop软件工具也叫柔化工具，对图像进行柔化。模糊工具是将涂抹的区域变得模糊，模糊有时候是一种表现手法，将画面中其馀部分作模糊处理，就可以凸现主体。</p>
+				<h2>模糊工具的使用</h2>
+				<hr>
+				<p>模糊工具可以使图像的色彩变模糊。选中模糊工具，在模糊工具属性栏中</p>
+				<p>Brush选项用于选择画笔的形状；</p>
+			    <p>Mode选项用于设定模式；</p>
+			    <p>Pressure选项用于设定压力的大小</p>
+				<p>UseAllLayers选项用于确定模糊工具是否对所有可见层起作用。</p>
+				<p>模糊工具是将涂抹的区域变得模糊，模糊有时候是一种表现手法，将画面中其馀部分作模糊处理，就可以凸现主体。下左图是齿轮的摄影图片，为了突出第一个齿轮，我们将後方两个齿轮使用模糊工具涂抹。</p>
+				<p>注意模糊工具的操作是类似于喷枪的可持续作用，也就是说鼠标在一个地方停留时间越久，这个地方被模糊的程度就越大。</p>
+				<p>使用模糊工具可以很方便的进行小工作的磨皮操作，效果也还不错，但如果要处理的地方比较多的话，一是工作量太大，二是模糊的尺度很难把握，所以一般情况下直接使用模糊工具的情况不多，更多的情况是使用蒙版等相关工具，下一节我们将学习相关的内容。</p>
+				<h2>模糊工具的磨皮</h2>
+				<hr>
+				<p>操作步骤如下：</p>
+			    <ul>
+					<li>打开图片</li>
+					<li>先用“修复画笔”工具对脸部皮肤进行简单的处理，如“痣”之类的。具体使用方法可以参见：PhotoShop中修复画笔工具的使用</li>
+					<li>选择“模糊”工具</li>
+					<li>对脸部皮肤有明显瑕疵处进行涂抹就行了，见下图，效果还是很明显的。</li>
+				</ul>
+				<h2>背景知识</h2>
+				<hr>
+				<p>Photoshop中两大基础概念，分别是选区和图层(图层蒙版)，以及由此衍生的其他一些内容，比如色彩调整等。大家可能对我们未将通道列为“重点”感到疑惑，这是因为通道虽然有用，但完全不用也不影响大部分的制作，因而相比之下通道在实际当中使用频度不高，尤其是在网页设计中，通道堪称为罕用。Photoshop的“督脉”：路径。</p>
+		</div>
+	</body>
+</html>
