@@ -11,3 +11,6 @@
 ## git diff [file] 比较工作区文件和仓库文件差异
 ## git checkout [commit] -- [file] 将暂存区或者某个commit点文件恢复到工作区
 ## git mv [file] [path]    git rm [files]  移动或者删除文件  注意：这两个操作会修改工作区内容，同时将操作记录提交到暂存
+## git reset --hard HEAD^ 退回到上一个commit节点  一个^表示退回一个版本，以此类推
+## git reset --hard [commit_id] 退回到指定的commit_id节点
+## git reflog 查看所有操作记录，最上面的为最新记录，可以利用commit_id去往任何操作位置
