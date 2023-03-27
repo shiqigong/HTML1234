@@ -9,4 +9,4 @@
 ## git log 查看commit 日志记录
 ## git log --pretty=oneline  查看日志记录第一行
 ## git diff [file] 比较工作区文件和仓库文件差异
-## git check out [commit] -- [file] 将暂存区或者某个commit点文件恢复到工作区
+## git checkout [commit] -- [file] 将暂存区或者某个commit点文件恢复到工作区
