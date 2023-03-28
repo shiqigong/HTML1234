@@ -27,6 +27,6 @@
 ## git branch  查看分支，前面带有*号的意味着处于当前分支
 ## git branch [branch_name] 创建分支  
 ## git branch -b [branch_name]  创建分支并切换分支
-## git checkout [branch_name] 切换分支  与前面的相似
+## git checkout [branch_name] 切换分支
 ## git merge [branch_name]  合并分支 
 
