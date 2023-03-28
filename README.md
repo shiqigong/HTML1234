@@ -29,4 +29,6 @@
 ## git branch -b [branch_name]  创建分支并切换分支
 ## git checkout [branch_name] 切换分支
 ## git merge [branch_name]  合并分支 
+## git branch -d [branch]  删除分支
+## git branch -D [branch]  删除没有被合并的分支
 
