@@ -21,6 +21,12 @@
 ## git tag -d [tag]  删除标签
 ## git stash save [message] 保存工作区内容，将工作区未提交的修改封存，让工作区回到修改前的状态
 ## git stash list 查看工作区列表，最新保存的工作区在最上面
-## git shash apply [stash@{n}] 应用某个工作区
+## git stash apply [stash@{n}] 应用某个工作区
 ## git stash drop [stash@{n}] 删除某一个工作区
 ## git stash clear 删除所有保存的工作区
+## git branch  查看分支，前面带有*号的意味着处于当前分支
+## git branch [branch_name] 创建分支  
+## git branch -b [branch_name]  创建分支并切换分支
+## git checkout [branch_name] 切换分支  与前面的相似
+## git merge [branch_name]  合并分支 
+
