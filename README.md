@@ -31,4 +31,6 @@
 ## git merge [branch_name]  合并分支 
 ## git branch -d [branch]  删除分支
 ## git branch -D [branch]  删除没有被合并的分支
+## git clone https://github.com/xxxxxx 获取git项目源码
+
 
