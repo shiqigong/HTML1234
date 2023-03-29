@@ -32,5 +32,8 @@
 ## git branch -d [branch]  删除分支
 ## git branch -D [branch]  删除没有被合并的分支
 ## git clone https://github.com/xxxxxx 获取git项目源码
+## git remote add origin https://github.com/shiqigong/HTML1234.git  添加远程主机
+## git remote rm origin 删除当前连接
+
 
 
